@@ -1,7 +1,7 @@
 #ifndef NODO_CLASSE
 #define NODO_CLASSE  // <-- same string as above line
 
-// CLASS GOES HERE
+// Noh classico
 class Nodo {
    private:
     int chave;

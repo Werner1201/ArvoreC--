@@ -4,6 +4,8 @@
 #include "view.cpp"
 
 int main() {
-    valorNo(instancia(2));
+    Arvore arv(1);
+    arv.setRaiz(instancia(2));
+    cout << "\nA Raiz da Arvore eh: " << valorNo(arv.getRaiz());
     return 0;
 }
